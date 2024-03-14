@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carolina Spa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="contenedor header">
+        <div class="header__grid">
+            <div class="header__logo">
+                <img src="build/img/logo.svg" alt="logo carolina spa">
+            </div>
+            <nav class="sociales">
+                <a href="https://facebook.com" class="sociales__enlace">
+                    <span class="sociales__accesible">Facebook</span>
+                </a>
+                <a href="https://twitter.com" class="sociales__enlace">
+                    <span class="sociales__accesible">X</span>
+                </a>
+                <a href="https://instagram.com" class="sociales__enlace">
+                    <span class="sociales__accesible">Instagram</span>
+                </a>
+                <a href="https://pinterest.com" class="sociales__enlace">
+                    <span class="sociales__accesible">Pinterest</span>
+                </a>
+                <a href="https://youtube.com" class="sociales__enlace">
+                    <span class="sociales__accesible">YouTube</span>
+                </a>
+                <a href="https://tiktok.com" class="sociales__enlace">
+                    <span class="sociales__accesible">TikTok</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="navegacion">
+        <div class="navegacion__border">
+            <nav class="navegacion__contenedor">
+                <a href="#" class="navegacion__enlace">Inicio</a>
+                <a href="#" class="navegacion__enlace">Nosotros</a>
+                <a href="#" class="navegacion__enlace">Servicios</a>
+                <a href="#" class="navegacion__enlace">Productos</a>
+                <a href="#" class="navegacion__enlace">Contacto</a>
+            </nav>
+        </div>
+    </div>
+
+    <section class="slider">
+        <ul class="slider__contenedor">
+            <li class="slider_slide">
+                <picture>
+                    <source srcset="slide_03.avif" type="image/avif">
+                    <source srcset="slide_03.webp" type="image/webp">
+                    <img loading="lazy" src="slide_03.jpg" alt="imagen slide">
+                </picture>
+            </li>
+        </ul>
+    </section>
+
+    <section class="seccion bienvenida">
+        <h1 class="bienvenida__heading">bienvenida(o) a nuestro <span>sitio web</span></h1>
+        <p class="bienvenida__texto">Te sentirás como nueva(o) con nuestros masajistas profesionales</p>
+    </section>
+
+    <section class="cards">
+        <div class="contenedor cards__grid">
+            <div class="card">
+                <picture>
+                    <source srcset="build/img/servicio_01.avif" type="image/avif">
+                    <source srcset="build/img/servicio_01.webp" type="image/webp">
+                    <img loading="lazy" class="card__imagen" src="build/img/servicio_01.jpg" alt="imagen card">
+                </picture>
+                <div class="card__contenido">
+                    <h2 class="card__heading">Conoce sobre<span>nosotros</span></h2>
+                    <a href="#" class="card__enlace">Leer más</a>
+                </div>
+            </div> <!--.card-->
+
+            <div class="card">
+                <picture>
+                    <source srcset="build/img/servicio_02.avif" type="image/avif">
+                    <source srcset="build/img/servicio_02.webp" type="image/webp">
+                    <img loading="lazy" class="card__imagen" src="build/img/servicio_02.jpg" alt="imagen card">
+                </picture>
+                <div class="card__contenido">
+                    <h2 class="card__heading">Nuestros<span>servicios</span></h2>
+                    <a href="#" class="card__enlace">Leer más</a>
+                </div>
+            </div> <!--.card-->
+
+            <div class="card">
+                <picture>
+                    <source srcset="build/img/servicio_03.avif" type="image/avif">
+                    <source srcset="build/img/servicio_03.webp" type="image/webp">
+                    <img loading="lazy" class="card__imagen" src="build/img/servicio_03.jpg" alt="imagen card">
+                </picture>
+                <div class="card__contenido">
+                    <h2 class="card__heading">visita nuestra<span>tienda</span></h2>
+                    <a href="#" class="card__enlace">Leer más</a>
+                </div>
+            </div> <!--.card-->
+        </div>
+    </section>
+
+    <section class="horario">
+        <div class="contenedor horario__grid">
+            <div class="horario__contenido">
+                <h3 class="horario__heading">Horarios</h3>
+                <p class="horario__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore debitis deserunt maiores eveniet! Expedita asperiores explicabo similique labore voluptate quo, repellat quos ea aspernatur veritatis reprehenderit tempora, minus, obcaecati laboriosam!</p>
+
+                <table class="tabla">
+                    <thead class="tabla__thead">
+                        <tr class="tabla__tr-head">
+                            <th class="tabla__th">Día</th>
+                            <th class="tabla__th">De</th>
+                            <th class="tabla__th">Hasta</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tabla__tbody">
+                        <tr class="tabla__tr">
+                            <td class="tabla__td">Lunes</td>
+                            <td class="tabla__td">09:00</td>
+                            <td class="tabla__td">19:00</td>
+                        </tr> <!--.tr-->
+
+                        <tr class="tabla__tr">
+                            <td class="tabla__td">Martes</td>
+                            <td class="tabla__td">09:00</td>
+                            <td class="tabla__td">19:00</td>
+                        </tr> <!--.tr-->
+
+                        <tr class="tabla__tr">
+                            <td class="tabla__td">Miércoles</td>
+                            <td class="tabla__td">09:00</td>
+                            <td class="tabla__td">19:00</td>
+                        </tr> <!--.tr-->
+
+                        <tr class="tabla__tr">
+                            <td class="tabla__td">Jueves</td>
+                            <td class="tabla__td">09:00</td>
+                            <td class="tabla__td">19:00</td>
+                        </tr> <!--.tr-->
+
+                        <tr class="tabla__tr">
+                            <td class="tabla__td">Viernes</td>
+                            <td class="tabla__td">09:00</td>
+                            <td class="tabla__td">19:00</td>
+                        </tr> <!--.tr-->
+
+                        <tr class="tabla__tr">
+                            <td class="tabla__td">Sábado</td>
+                            <td class="tabla__td">09:00</td>
+                            <td class="tabla__td">19:00</td>
+                        </tr> <!--.tr-->
+
+                        <tr class="tabla__tr">
+                            <td class="tabla__td">Domingo</td>
+                            <td class="tabla__td" colspan="2">Cerrado</td>
+                        </tr> <!--.tr-->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
