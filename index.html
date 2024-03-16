@@ -7,7 +7,8 @@
     <title>Carolina Spa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
@@ -51,15 +52,31 @@
         </div>
     </div>
 
-    <section class="slider">
-        <ul class="slider__contenedor">
-            <li class="slider_slide">
+    <section class="contenedor slider swiper">
+        <ul class="slider__contenedor swiper-wrapper">
+            <li class="slider__slide swiper-slide">
                 <picture>
-                    <source srcset="slide_03.avif" type="image/avif">
-                    <source srcset="slide_03.webp" type="image/webp">
-                    <img loading="lazy" src="slide_03.jpg" alt="imagen slide">
+                    <source srcset="build/img/slide_01.avif" type="image/avif">
+                    <source srcset="build/img/slide_01.webp" type="image/webp">
+                    <img loading="lazy" class="slider__imagen" src="build/img/slide_01.jpg" alt="imagen slide">
                 </picture>
-            </li>
+            </li> <!--.slider_slide-->
+
+            <li class="slider__slide swiper-slide">
+                <picture>
+                    <source srcset="build/img/slide_02.avif" type="image/avif">
+                    <source srcset="build/img/slide_02.webp" type="image/webp">
+                    <img loading="lazy" class="slider__imagen" src="build/img/slide_02.jpg" alt="imagen slide">
+                </picture>
+            </li> <!--.slider_slide-->
+
+            <li class="slider__slide swiper-slide">
+                <picture>
+                    <source srcset="build/img/slide_03.avif" type="image/avif">
+                    <source srcset="build/img/slide_03.webp" type="image/webp">
+                    <img loading="lazy" class="slider__imagen" src="build/img/slide_03.jpg" alt="imagen slide">
+                </picture>
+            </li> <!--.slider_slide-->
         </ul>
     </section>
 
@@ -289,6 +306,9 @@
 
         <p class="footer__copyright">&copy; 2024 Carolina Spa & Salón. Todos los derechos reservados.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 </html>
